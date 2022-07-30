@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href={{ url_for ('static', filename='style.css')}}>
+</head>
+<body>
+  <div class="flex-container">
+	</div>
+
+{% block content %}
+{% endblock %}
+</body>
+</html>

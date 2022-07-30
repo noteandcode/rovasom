@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}
+rovasom
+{% endblock %}
+{% block content %}
+<div class="flex-container">
+	<div class="flex-items">
+		<h1>Rovasom is a semi-automation tool for writing blog posts, articles or essays based on facts on the Internet. No plagiarism. Rovasom is a tool for those who like thinking and hate copy and paste.
+			You can use Rovasom in 6 easy steps.</h1>
+		<h3><br>1. Figure out your topic.<br>
+			<br>2. Search sources in the topic.<br></h3>
+		<h1><br>3. Figure out your point of view and your own way to organize the facts you have found in your sources.<br></h1>
+		<h3><br>4. Copy and paste the urls of the good sources to the Rovasom boxes and press the submit button.<br>
+			<br>5. Ask questions from Rovasom robot that uses AI to answer your questions. The base of answers are the content on the sites you put their urls into the boxes.<br>
+			<br>6. Compose your article based on the answers of Rovasom robot.<br>
+			<br>Try it now. It is free.<br>
+		</h3>
+	</div>
+	<div class="flex-items">
+		<div class="form-center">
+					<form action="/action-page" method="POST">>
+					<label for="urlinput1">The url of source #1</label><br>
+					<input type="url" id="url1" name="source1" value="http://..."><br>
+					<label for="urlinput2">The url of source #2</label><br>
+					<input type="url" id="url2" name="source2" value="http://..."><br>
+					<label for="urlinput3">The url of source #3</label><br>
+					<input type="url" id="url3" name="source3" value="http://..."><br>
+					<label for="urlinput4">The url of source #4</label><br>
+					<input type="url" id="url4" name="source4" value="http://..."><br>
+					<label for="urlinput5">The url of source #5</label><br>
+					<input type="url" id="url5" name="source5" value="http://..."><br>
+					<label for="urlinput6">The url of source #6</label><br>
+					<input type="url" id="url6" name="source6" value="http://..."><br>
+					<label for="urlinput7">The url of source #7</label><br>
+					<input type="url" id="url7" name="source7" value="http://..."><br>
+					<label for="urlinput8">The url of source #8</label><br>
+					<input type="url" id="url8" name="source8" value="http://..."><br>
+					<label for="urlinput9">The url of source #9</label><br>
+					<input type="url" id="url9" name="source9" value="http://..."><br>
+					<label for="urlinput10">The url of source #10</label><br>
+					<input type="url" id="url10" name="source10" value="http://..."><br>
+					<input type="submit" value="Submit">
+				  </form>
+		</div>
+		
+	</div>
+    <div>
+		   <h1>This page is just a mockup.</h1>
+	  </div>
+</div>
+{% endblock %}
